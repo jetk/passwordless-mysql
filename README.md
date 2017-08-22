@@ -1,4 +1,4 @@
-# passwordless-mysql
+# passwordless-sqlite
 This module provides sqlite token storage for Passwordless, a node.js module for express that allows website
 authentication without password using verification through email or other means. 
 Visit the project's website https://passwordless.net for more details.
