@@ -13,7 +13,7 @@ function TokenStoreFactory() {
 }
 
 var beforeEachTest = function(done) {
-    var con = new sqlite.Database('passwordless');
+    var con = new sqlite.Database(conString);
     con.run("delete from passwordless", function(err) {
         if (err) {
             console.log("err:", err);
